@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameScreen">
+      <UniqueIdentifier>{d8054a35-46bc-4603-91e9-eafae19c32bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{d939f97e-d048-47b5-8ea7-7d3abe280985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{219c3741-d803-4a2f-af5e-a80723e7bb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lane">
+      <UniqueIdentifier>{e91666a6-2726-4278-bbb1-0fa0050ccfd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{e894925e-861f-49fb-b432-3a448e593fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mountable">
+      <UniqueIdentifier>{be4ef3b3-4409-414e-a743-abd57fa9f074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MenuScreen">
+      <UniqueIdentifier>{4842354e-905e-452e-997c-6fb107f1076c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{2c2488da-aa4e-460f-bdb1-4292bedbe055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SettingScreen">
+      <UniqueIdentifier>{1e902e16-e459-4fa1-8a4c-de73a056c92a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Movable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameScreen\GameScreen.cpp">
+      <Filter>GameScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\App.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Constant.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextureHolder.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Lane\Lane.cpp">
+      <Filter>Lane</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Lane\Tile.cpp">
+      <Filter>Lane</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Lane\GrassLane.cpp">
+      <Filter>Lane</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Lane\RoadLane.cpp">
+      <Filter>Lane</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Lane\SpawnLane.cpp">
+      <Filter>Lane</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Lane\RiverLane.cpp">
+      <Filter>Lane</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Enemy\Enemy.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Enemy\Car.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Mountable\Mountable.cpp">
+      <Filter>Mountable</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Mountable\Wood.cpp">
+      <Filter>Mountable</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Lane\RailLane.cpp">
+      <Filter>Lane</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Enemy\Train.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Button.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MenuScreen\MenuScreen.cpp">
+      <Filter>MenuScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Screen.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SettingScreen\SettingScreen.cpp">
+      <Filter>SettingScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\Label.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Components\ImageButton.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundHolder.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundPlayer.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Game\Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Movable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameScreen\GameScreen.h">
+      <Filter>GameScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\Logger.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\App.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Constant.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextureHolder.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Lane\Lane.h">
+      <Filter>Lane</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Lane\Tile.h">
+      <Filter>Lane</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Lane\GrassLane.h">
+      <Filter>Lane</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\random.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Lane\RoadLane.h">
+      <Filter>Lane</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Lane\SpawnLane.h">
+      <Filter>Lane</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Lane\RiverLane.h">
+      <Filter>Lane</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Enemy\Enemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Enemy\Car.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Mountable\Mountable.h">
+      <Filter>Mountable</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Mountable\Wood.h">
+      <Filter>Mountable</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Lane\RailLane.h">
+      <Filter>Lane</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Enemy\Train.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\Component.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\Button.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MenuScreen\MenuScreen.h">
+      <Filter>MenuScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Screen.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SettingScreen\SettingScreen.h">
+      <Filter>SettingScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\Label.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util\sfml.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\ImageButton.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SoundHolder.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SoundPlayer.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
