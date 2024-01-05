@@ -26,7 +26,8 @@ namespace constant {
     const int APP_SAFE_LANE     = 4;
 
     // PLAYER: scale: 32/48
-    const int PLAYER_WIDTH      = 50;
+    // NEW PLAYER: scale 1/1
+    const int PLAYER_WIDTH      = 75;
     const int PLAYER_HEIGHT     = 75;
     const int PLAYER_START_X      = 7;
     const int PLAYER_START_Y      = 5;

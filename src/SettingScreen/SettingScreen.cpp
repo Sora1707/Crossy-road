@@ -61,6 +61,7 @@ SettingScreen::SettingScreen() {
         buttons[i]->setPosition(constant::APP_WIDTH / 2 - constant::BUTTON_WIDTH / 2, posY);
     }
     for (int i = 0; i < (int)Player::Movement::Count; ++i) {
+        keyLabels[i].setTextColor(sf::Color::Black);
         keyLabels[i].setPosition(constant::APP_WIDTH / 2 - constant::BUTTON_WIDTH / 2 + 200, startY + 75 * i);
     }
 

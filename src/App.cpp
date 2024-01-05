@@ -176,7 +176,7 @@ void App::update() {
             player.setIsDead(false);
 
             int newHighestScore = std::max(player.getHighestScore(), player.getScore());
-            std::cout << newHighestScore << "\n";
+            // std::cout << newHighestScore << "\n";
             player.setHighestScore(newHighestScore);
 
             tmpGameScreen = std::make_shared<GameScreen>();
